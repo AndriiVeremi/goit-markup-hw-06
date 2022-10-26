@@ -302,7 +302,6 @@ body {
   padding-bottom: 27px;
   margin: 0;
 
-
   font-size: 14px;
   line-height: 16px;
   text-align: center;
@@ -336,9 +335,8 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: var(--white-color-text);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),  
-              0px 1px 1px rgba(0, 0, 0, 0.14),
-              0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -526,6 +524,7 @@ body {
 
 .footer-social-list {
   display: flex;
+  margin-right: 93px;
 }
 
 .footer-social-item:not(:last-child) {
@@ -558,6 +557,37 @@ body {
   fill: var(--white-color-text);
 }
 
+.subscript {
+}
+
+.subscript-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mail {
+}
+
+.subscript-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  border: none;
+}
+
 /* ПОРТФОЛІО */
 
 /* СТИЛІ МЕНЮ ПОРТФОЛІО */
@@ -579,9 +609,8 @@ body {
 
 .portfolio-item:hover,
 .portfolio-item:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-              0px 1px 2px rgba(0, 0, 0, 0.08),
-              0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: none;
 }
@@ -624,9 +653,8 @@ body {
 }
 
 .portfolio-work-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
-              0px 4px 4px rgba(0, 0, 0, 0.06),
-              1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-work-item:nth-child(3n) {
@@ -720,34 +748,93 @@ body {
   transform: translate(-50%, -50%) scale(0.8);
 }
 
-.modal { 
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 528px;
   height: 581px;
   background-color: #ffffff;
-  
+
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--duration-function) var(--timing-function);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-              0px 1px 1px rgba(0, 0, 0, 0.14), 
-              0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
-.madal-btn {
+.modal-content {
   display: flex;
-  background-color: #FFFFFF;
+  flex-direction: column;
+}
+
+.madal-close {
+  background-color: #ffffff;
   background-image: url(../images/icons/close.svg);
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-  height:30px; 
+  height: 30px;
   width: 30px;
   margin-left: 490px;
   margin-top: 8px;
-  
 }
+
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
+}
+
+
+
+
+
+.user-name {
+  margin-bottom: 10px;
+}
+.user-tel {
+  margin-bottom: 10px;
+}
+.user-mail {
+  margin-bottom: 10px;
+}
+.comments {
+  margin-bottom: 20px;
+}
+.police {
+  margin-bottom: 30px;
+}
+.modal-btn {
+}
+
+
+
+
+
+
+
+
+.modal-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 52px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  align-items: center;
+}
+
+
