@@ -780,6 +780,7 @@ body {
   width: 30px;
   margin-left: 490px;
   margin-top: 8px;
+  margin-bottom: 2px;
 }
 
 .modal-title {
@@ -789,37 +790,58 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 12px;
+  margin-bottom: 30px;
 }
 
-
-
-
-
-.user-name {
-  margin-bottom: 10px;
+.form {
+  width: 448px;
+  border-radius: 4px;
+  margin: 0px 40px;
 }
-.user-tel {
-  margin-bottom: 10px;
+
+.form-service {
+  position: relative;
+  margin-bottom: 28px;
 }
-.user-mail {
-  margin-bottom: 10px;
+
+.form-service:last-child {
+  margin-bottom: 20px;
 }
+
+.form-label {
+  position: absolute;
+  top: -17px;
+  left: 0;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.form-input {
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+  font: inherit;
+  border-radius: 3px;
+  border: 1px solid #2a2a2a;
+}
+
 .comments {
   margin-bottom: 20px;
 }
+
 .police {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
   margin-bottom: 30px;
 }
+
 .modal-btn {
+  
 }
-
-
-
-
-
-
-
 
 .modal-btn {
   width: 200px;
@@ -836,5 +858,3 @@ body {
   color: #ffffff;
   align-items: center;
 }
-
-
