@@ -829,8 +829,8 @@ body {
 .form-input:focus,
 .form-input:hover ~ .form-icon,
 .form-input:focus ~ .form-icon {
-  border-color: #2196f3;
-  color: #2196f3;
+  border-color: var(--blue-primary);
+  color: var(--blue-primary);
 }
 
 .form-input::placeholder {
@@ -893,20 +893,19 @@ body {
 }
 
 .police-icon {
-  width: 16px;
-  height: 15px;
   border: 2px solid #000;
   border-radius: 2px;
   margin-right: 7px;
 }
 
 .police-input:checked + .police-icon {
-  background-color: #2196f3;
-  background-image: url(../images/icons/icon-check.svg);
-  border-color: #2196f3;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-origin: border-box;
+  background-color: var(--blue-primary);
+  border: none;
+}
+
+.form-input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .police-text p {

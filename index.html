@@ -423,9 +423,7 @@
 
         <form class="form" autocomplete="off">
           <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
-
           <ul class="form-list">
-
             <li class="form-service">
               <input type="text" class="form-input" name="user-name" id="name" />
               <label for="name" class="form-label">Ім'я</label>
@@ -441,32 +439,26 @@
               </svg>
             </li>
             <li class="form-service">
-              <input type="email" class="form-input" name="user-mail" id="mail" />
+              <input type="email" class="form-input" name="user-mail" id="mail"/>
               <label for="mail" class="form-label">Пошта</label>
               <svg width="18" height="18" class="form-icon">
                 <use href="./images/icons/icons.svg#email"></use>
               </svg>
-            </li>
+            </li>           
             <li class="form-service">
-              <textarea
-                name="user-comments"
-                class="form-input"
-                id="comments"
-                cols="30" 
-                rows="10"
-                placeholder="Введіть текст">
-              </textarea>
+              <textarea name="user-comments" class="form-input" id="comments" cols="30" rows="10" placeholder="Введіть текст"></textarea>
               <label for="comments" class="form-label">Коментар</label>
             </li>           
             <li class="form-police">              
               <label class="police-text">
-               <input type="checkbox" class="police-input" name="user-police"/>
-               <span class="police-icon"></span>
-              <p>Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></p>
-            </label>
+              <input type="checkbox" class="police-input" name="user-police" />      
+              <svg width="16" height="15" class="police-icon">
+                <use href="./images/icons/icons.svg#icon-check"></use>
+              </svg>
+                <p>Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></p>
+              </label>              
             </li>
           </ul>
-
           <button type="submit" class="modal-btn">Відправити</button>
         </form>
       </div>
