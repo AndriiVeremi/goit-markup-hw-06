@@ -417,26 +417,26 @@
           </svg>
         </button>
 
-        <form class="form">
+        <form class="form" autocomplete="off">
           <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
 
           <ul class="form-list">
             <li class="form-service">
-              <input type="text" class="form-input" name="name" id="name" />
+              <input type="text" class="form-input" name="user-name" id="name" />
               <label for="name" class="form-label">Ім'я</label>
               <svg width="12" height="12" class="form-icon">
                 <use href="./images/icons/icons.svg#person"></use>
               </svg>
             </li>
             <li class="form-service">
-              <input type="tel" class="form-input" name="tel" id="tel" />
+              <input type="tel" class="form-input" name="user-tel" id="tel" />
               <label for="tel" class="form-label">Телефон</label>
               <svg width="13" height="13" class="form-icon">
                 <use href="./images/icons/icons.svg#phone"></use>
               </svg>
             </li>
             <li class="form-service">
-              <input type="email" class="form-input" name="mail" id="mail" />
+              <input type="email" class="form-input" name="user-mail" id="mail" />
               <label for="mail" class="form-label">Пошта</label>
               <svg width="15" height="15" class="form-icon">
                 <use href="./images/icons/icons.svg#email"></use>
@@ -444,7 +444,7 @@
             </li>
             <li class="form-service">
               <textarea
-                name="comments"
+                name="user-comments"
                 class="form-input"
                 id="comments"
                 placeholder="Введіть текст">
@@ -452,7 +452,7 @@
               <label for="comments" class="form-label">Коментар</label>
             </li>
             <li class="form-police">
-              <input type="checkbox" class="police-input" name="police" id="police" />
+              <input type="checkbox" class="police-input" name="user-police" id="police" />
               <label for="police" class="text-police"><p>Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></p></label>
             </li>
           </ul>
