@@ -888,8 +888,10 @@ body {
   
   width: 15px;
   height: 16px;
+   border: 2px solid #000;
+  border-radius: 2px;
   background-image: url(../images/icons/icon-check.svg);
-  background-color: #09cc7b;
+ 
   margin-right: 8px;
 }
 
