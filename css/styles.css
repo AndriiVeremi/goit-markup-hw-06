@@ -594,12 +594,8 @@ body {
   border: none;
 }
 
-.subscript-btn::after {
-  content: '';
-  width: 24px;
-  height: 24px;
+.subscript-icon {
   margin-left: 10px;
-  background-image: url(../images/icons/icon_send.svg);
 }
 
 /* ПОРТФОЛІО */
@@ -772,8 +768,9 @@ body {
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--duration-function) var(--timing-function);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+              0px 1px 1px rgba(0, 0, 0, 0.14),
+              0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
@@ -819,7 +816,7 @@ body {
 
 .form-service:hover .form-icon,
 .form-service:focus .form-icon {
-   fill: var(--blue-primary);
+  fill: var(--blue-primary);
 }
 
 .form-service:nth-child(4) {
