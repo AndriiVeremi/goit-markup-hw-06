@@ -874,8 +874,16 @@ body {
 }
 
 .police-input {
-  appearance: none;
   position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .police-text {
@@ -885,7 +893,6 @@ body {
 }
 
 .police-icon {
-  display: inline-block;
   width: 16px;
   height: 15px;
   border: 2px solid #000;
@@ -894,8 +901,6 @@ body {
 }
 
 .police-input:checked + .police-icon {
-  width: 16px;
-  height: 15px;
   background-color: #2196f3;
   background-image: url(../images/icons/icon-check.svg);
   border-color: #2196f3;
