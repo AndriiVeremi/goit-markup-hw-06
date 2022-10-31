@@ -157,6 +157,7 @@ body {
 .icon-mail,
 .icon-tel {
   display: flex;
+  align-items: center;
   margin-right: 10px;
   fill: currentColor;
 }
