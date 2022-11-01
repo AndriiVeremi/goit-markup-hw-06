@@ -557,7 +557,6 @@ body {
   fill: var(--white-color-text);
 }
 
-
 .subscript {
   margin-left: auto;
 }
@@ -801,28 +800,22 @@ body {
 }
 
 .modal-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 30px; 
+  color: #212121;
 }
 
-.modal-title p {
-  margin: 0;
-}
-
-.form-list {
-  display: block;
- 
-}
-
-.form-service {
+.form-callback {
   position: relative;
   margin-bottom: 28px;
 }
 
-.form-service:nth-child(4) {
+.form-callback:nth-child(5) {
   margin-bottom: 20px;
 }
 
@@ -834,7 +827,6 @@ body {
   border-radius: 4px;
   transition: border-color var(--duration-function) var(--timing-function);
 }
-
 
 .form-input:focus,
 .form-input:focus ~ .form-icon {
@@ -853,7 +845,7 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--secondory-color-text);
 }
 
 .form-icon {
@@ -866,20 +858,13 @@ body {
   transition: color var(--duration-function) var(--timing-function);
 }
 
-.form-service > textarea {
+.form-callback > textarea {
   height: 120px;
   padding: 16px 12px;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-}
-
-.form-police {
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-  margin-bottom: 30px;
+  resize: none;
 }
 
 .police-input {
@@ -901,6 +886,19 @@ body {
   justify-content: center;
 }
 
+.police-text p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--secondory-color-text);
+  margin: 0;
+}
+
+.police-link {
+  color: var(--blue-primary);
+  text-decoration: underline;
+}
+
 .police-icon {
   border: 2px solid #000;
   border-radius: 2px;
@@ -913,21 +911,11 @@ body {
   border: none;
 }
 
-.police-text p {
-  align-items: center;
-  margin: 0;
-}
-
-.police-text a {
-  color: var(--blue-primary);
-  text-decoration: underline;
-}
-
 .modal-btn {
   display: block;
   margin: 0 auto;
   padding: 10px 52px;
-  background: var(--blue-primary);
+  background-color: var(--blue-primary);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -938,4 +926,9 @@ body {
   letter-spacing: 0.06em;
   color: var(--white-color-text);
   cursor: pointer;
+  transition: background-color var(--duration-function) var(--timing-function);
+}
+
+.modal-btn:hover {
+  background-color: #188ce8;
 }
