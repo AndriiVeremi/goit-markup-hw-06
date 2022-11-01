@@ -627,7 +627,7 @@ body {
 }
 
 .portfolio-btn {
-  display: inline-block;
+  display: block;
   background: #f5f4fa;
   border-radius: 4px;
   padding: 6px 25px;
@@ -775,6 +775,7 @@ body {
 }
 
 .modal-close {
+  display: block;
   position: absolute;
   top: 0;
   right: 0;
@@ -849,7 +850,7 @@ body {
 }
 
 .form-icon {
-  display: flex;
+  display: block;
   position: absolute;
   top: 50%;
   left: 10px;
@@ -916,7 +917,7 @@ body {
 }
 
 .modal-btn {
-  display: flex;
+  display: block;
   margin: 0 auto;
   padding: 10px 52px;
   background: var(--blue-primary);
